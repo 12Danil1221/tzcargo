@@ -1,0 +1,394 @@
+body{
+/* Templates #5. More on Figma.info */
+width: 1410px;
+height: 3282px;
+/* Dark */
+background: rgb(47, 52, 58);
+}
+.top-line{
+    position: absolute;
+    width: 1470px;
+    height: 45px;
+    left: 0;
+    right: 0;
+    top: 0px;
+    background: rgb(200, 163, 95);
+}
+.top-line__lang{
+    position: absolute;
+    width: 106px;
+    height: 13px;
+    left: 304px;
+    right: 1030px;
+    top: 15px;
+    bottom: 16px;  
+}
+.top-line p{
+    /* p--top-line */
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.FR{
+    /* FR */
+    position: absolute;
+    width: 19.36px;
+    height: 13px;
+    left: 80px;
+    opacity: 0.5;
+}
+.ENG{
+    /* ENG */
+position: absolute;
+width: 30.98px;
+height: 13px;
+left: 40px;
+opacity: 0.5;
+
+}
+.RUS{
+    /* РУС */
+position: absolute;
+width: 29.69px;
+height: 13px;
+left: 0px;
+}
+.email{
+    /* sales@log.ru */
+position: absolute;
+width: 71.25px;
+height: 13px;
+left: 1065px;
+top: 15px;
+}
+.tel{
+/* 8 (800) 123-45-67 */
+position: absolute;
+width: 108px;
+height: 13px;
+left: 685px;
+top: 15px;
+}
+.first-line{
+/* first-line */
+position: absolute;
+width: 1110px;
+height: 46px;
+left: 166px;
+right: 164px;
+top: 80px;
+bottom: 3158px;
+}
+.logo{
+    /* logo */
+position: absolute;
+width: 160px;
+height: 46px;
+right: 950px;
+}
+.first-line__main-menu{
+    /* first-line__main-menu */
+position: absolute;
+height: 46px;
+left: 498px;
+top: 0px;
+bottom: 15px;
+}
+.first-line__main-menu p{
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 5%;
+text-align: left;
+text-transform: uppercase;
+}
+.reg{
+    position: absolute;
+    width: 59px;
+    height: 16px;
+    left: 630px;
+    }
+.auth{
+        position: absolute;
+        width: 59px;
+        height: 16px;
+        left: 520px;
+        }
+.profil{
+    position: absolute;
+    width: 60px;
+    height: 16px;
+    left: 600px;
+}
+.contact{
+/* контакты */
+position: absolute;
+width: 59px;
+height: 16px;
+left: 410px;
+}
+.vakans{
+/* вакансии */
+position: absolute;
+width: 100px;
+height: 16px;
+left: 300px;
+right: 111px;
+}
+.about{
+/* О компании */
+position: absolute;
+width: 100px;
+height: 16px;
+left: 170px;
+right: 223px;
+}
+.uslugi{
+/* услуги */
+position: absolute;
+width: 120px;
+height: 16px;
+left: 50px;
+top: 16px;
+}
+.redact_gruz{
+    width: 200px;
+    position: absolute;
+    left: -130px;
+    top: 16px;
+
+}
+.addgruz{
+    position: absolute;
+    left: -120px;
+}
+.nashiofisi{
+    position: absolute;
+    width: 97px;
+    height: 16px;
+    left: 255px;
+    top: 15px;
+    right: 758px;
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 5%;
+text-align: left;
+}
+.placeholder{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    top: 11px;
+    bottom: 10px;
+    left: 220px;
+}
+.line{
+    position: absolute;
+    width: 46px;
+    height: 0;
+    left: 170px;
+    right: 920px;
+    transform: rotate(90.00deg);
+    border: 1px solid rgb(242, 242, 242);
+}
+.first-screen{
+    position: absolute;
+    width: 1440px;
+    height: 620px;
+    top: 145px;
+    bottom: 2517px;
+}
+.rectangle4{
+    position: absolute;
+    width: 690px;
+    height: 245px;
+    top: 155px;
+    left: 375px;
+    right: 375px;
+    bottom: 220px;
+    box-sizing: border-box;
+    /* Gold */
+    border: 1px solid rgb(200, 163, 95);
+}
+
+.info{
+    position: absolute;
+    width: 583px;
+    height: 51px;
+    top: 175px;
+    left: 53px;
+    right: 54px;
+    /* p > h1, h2 */
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: center;
+}
+.title{
+    position: absolute;
+    width: 583px;
+    height: 59px;
+    top: 5px;
+    left: 53px;
+    right: 54px;
+    bottom: 141px;
+    /* h1 */
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 64px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 5%;
+text-align: center;
+text-transform: uppercase;
+}
+main{
+    position: absolute;
+    top: 800px;
+    left: 150px;
+    color: white;
+}
+.form{
+    position: absolute;
+    top:-600px;
+}
+
+.first-line__main-menu .a{
+    text-decoration:none;
+}
+.all-services{
+    /* all-services */
+position: absolute;
+width: 1108px;
+height: 504px;
+left: 165px;
+right: 167px;
+top: 155px;
+bottom: 1320px;
+}
+.all-services_item{
+    /* all-services__item */
+position: absolute;
+width: 276px;
+height: 180px;
+top: 143px;
+}
+.all-services_item2{
+position: absolute;
+width: 276px;
+height: 180px;
+top: 143px;
+left: 278px;
+}
+.all-services_item3{
+    position: absolute;
+    width: 276px;
+    height: 180px;
+    top: 143px;
+    left: 555px;
+    }
+    .all-services_item4{
+        position: absolute;
+        width: 276px;
+        height: 180px;
+        top: 143px;
+        left: 832px;
+        }
+        .all-services_item5{
+            position: absolute;
+            width: 276px;
+            height: 180px;
+            top: 324px;
+            }
+            .all-services_item6{
+                position: absolute;
+                width: 276px;
+                height: 180px;
+                top: 324px;
+                left: 278px;
+                }
+                .all-services_item7{
+                    position: absolute;
+                    width: 276px;
+                    height: 180px;
+                    top: 324px;
+                    left: 555px;
+                    }
+                    .all-services_item8{
+                        position: absolute;
+                        width: 276px;
+                        height: 180px;
+                        top: 324px;
+                        left: 832px;
+                        }
+.all-services_p-info{
+/* Авиаперевозки */
+position: absolute;
+width: 192px;
+height: 17px;
+left: 43px;
+top: 128px;
+
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 5%;
+text-align: center;
+text-transform: uppercase;
+}
+.all-services_p-title{
+position: absolute;
+width: 650px;
+height: 37px;
+top: 46px;
+
+/* h2 */
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 25px;
+font-weight: 700;
+line-height: 47px;
+letter-spacing: 5%;
+text-align: left;
+text-transform: uppercase;
+}
+.all-services_item-rectangle3{
+    /* Rectangle 3 */
+position: absolute;
+width: 276px;
+height: 180px;
+top: 10px;
+background: rgb(200, 163, 95);
+}
+.all-services_item-img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    left: 20px;
+}
+.all-services_item-eclipse{
+    /* Ellipse */
+position: absolute;
+width: 70px;
+height: 70px;
+left: 103px;
+top: 35px;
+border-radius: 50px;
+background: rgb(255, 255, 255);
+
+}
